@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 import "./Navbar.css";
 import logo from "../../assets/cryptrac_logo.png";
-import arrow from "../../assets/arrow_icon.png";
+import arrow from "../../assets/submit.png";
 import { CoinContext } from "../../context/CoinContext";
 import { Link } from "react-router-dom";
 
@@ -39,9 +39,18 @@ const Navbar = () => {
         <Link to={"/"}>
           <li>Home</li>
         </Link>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Blog</li>
+        <Link to={"/Service"}>
+          <li>Services</li>
+        </Link>
+        <Link to={"/About"}>
+          <li>About Us</li>
+        </Link>
+        <Link to={"/Contact"}>
+          <li>Contact Us</li>
+        </Link>
+        {/* <Link to={"/Ask"}>
+          <li>Ask Me</li>
+        </Link> */}
       </ul>
       <div className="nav-right">
         <select onChange={currencyHandler}>
@@ -50,7 +59,7 @@ const Navbar = () => {
           <option value="inr">INR</option>
         </select>
         <button>
-          Sign up
+          <a href="https://en.wikipedia.org/wiki/Cryptocurrency" target="_blank">More</a>
           <img src={arrow} alt="" />
         </button>
       </div>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.contact-section {
+  width: 100%;
+  padding: 30px 12%;
+  text-align: center;
+  background-size: 90% auto;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact-title {
+  font-size: max(4vw, 36px);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  max-width: 640px;
+  margin: 20px auto 40px;
+  font-family: "Outfit", system-ui;
+}
+
+.contact-form {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
+  margin: 40px 0 32px;
+}
+
+.input-field {
+  padding: 15px;
+  outline: none;
+  border: 0.5px solid #888;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 100%; 
+  height: 50px; 
+}
+
+.textarea-field {
+  padding: 15px;
+  outline: none;
+  border: 0.5px solid #888;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 100%; 
+  height: 200px; 
+  margin: 15px 0;
+}
+
+.submit-button {
+  padding: 15px 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #09005c;
+  color: white;
+  border-radius: 50px;
+  margin: 20px auto 5px; 
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.submit-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.button-icon {
+  width: 16px;
+}

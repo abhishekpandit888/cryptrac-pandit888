@@ -1,6 +1,7 @@
 .home {
     padding: 0px 10px;
     padding-bottom: 100px;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .intro {

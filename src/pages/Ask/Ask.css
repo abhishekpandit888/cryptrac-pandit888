@@ -1,0 +1,70 @@
+.ask-me-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .ask-me-heading {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .ask-me-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ask-me-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .ask-me-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .ask-me-submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ask-me-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .ask-me-result-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .ask-me-response p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .ask-me-new-query-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .ask-me-new-query-button:hover {
+    background-color: #218838;
+  }
+  
