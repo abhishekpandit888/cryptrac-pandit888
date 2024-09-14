@@ -6,6 +6,7 @@
   text-align: center;
   background-size: 90% auto;
   animation: fadeIn 1.5s ease-in-out;
+  font-family: "Outfit", system-ui;
 }
 
 .contact-title {
@@ -54,12 +55,14 @@
 }
 
 .submit-button {
+  font-size: 1em;
   padding: 15px 32px;
   display: flex;
   align-items: center;
   gap: 8px;
   background-color: #09005c;
   color: white;
+  border: 1.5px solid white;
   border-radius: 50px;
   margin: 20px auto 5px; 
   cursor: pointer;
