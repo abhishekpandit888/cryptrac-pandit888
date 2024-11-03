@@ -48,9 +48,9 @@ const Navbar = () => {
         <Link to={"/Contact"}>
           <li>Contact Us</li>
         </Link>
-        {/* <Link to={"/Ask"}>
+        <Link to={"/Ask"}>
           <li>Ask Me</li>
-        </Link> */}
+        </Link>
       </ul>
       <div className="nav-right">
         <select onChange={currencyHandler}>

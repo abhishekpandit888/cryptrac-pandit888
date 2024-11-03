@@ -1,70 +1,93 @@
-.ask-me-container {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.ask-section {
+    width: 100%;
+    padding: 10px 12%;
     text-align: center;
-    margin: 20px;
-  }
-  
-  .ask-me-heading {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .ask-me-input-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .ask-me-image {
-    width: 100px;
-    height: 100px;
+    animation: fadeIn 1.5s ease-in-out;
+    font-family: "Outfit", sans-serif;
+}
+
+.ask-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ask-title {
+    font-size: max(4vw, 36px);
+    font-weight: bold;
+    color: white;
     margin-bottom: 20px;
-  }
-  
-  .ask-me-input {
-    width: 80%;
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 5px;
+}
+
+.ask-description {
+    max-width: 640px;
+    margin: 20px auto 30px;
+    /* font-size: 1.1em; */
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+.ask-question {
+    width: 100%;
+    padding: 15px;
     border: 1px solid #ccc;
-    margin-bottom: 10px;
-  }
-  
-  .ask-me-submit-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+    resize: none;
+    height: 80px;
+    outline: none;
+}
+
+.ask-answer {
+    width: 100%;
+    min-height: 100px;
+    height: 180px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 1em;
+    color: #333;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.ask-button {
+    font-size: 1em;
+    padding: 15px 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #09005c;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    margin: 10px auto 5px;
     cursor: pointer;
-  }
-  
-  .ask-me-submit-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .ask-me-result-section {
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    margin-top: 20px;
-  }
-  
-  .ask-me-response p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-  }
-  
-  .ask-me-new-query-button {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .ask-me-new-query-button:hover {
-    background-color: #218838;
-  }
-  
+    transition: background-color 0.5s;
+}
+
+.ask-button:hover {
+    background-color: #06004a;
+}
+
+.button-icon {
+    width: 16px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
